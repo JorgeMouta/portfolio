@@ -84,7 +84,7 @@ typings/
 .dynamodb/
 
 # Windows thumbnail cache files
-Thumbs.db
+# Thumbs.db
 ehthumbs.db
 ehthumbs_vista.db
 
@@ -107,4 +107,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-.email.js
+email.js
