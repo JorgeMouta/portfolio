@@ -1,0 +1,108 @@
+.AboutMeContainer {
+  padding: 2em;
+  margin: 3rem 0rem;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
+  overflow: hidden;
+  height: auto;
+}
+
+.AboutMe1,
+.AboutMe2,
+.AboutMe3 {
+  background-color: #fffcf0;
+  padding: 3rem;
+  height: auto;
+  color: #6932ea;
+
+  box-shadow: 0 1px 2px #c9c9c9;
+  -moz-box-shadow: 0 1px 2px #c9c9c9;
+  -webkit-box-shadow: 0 1px 2px #c9c9c9;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.AboutMe1 p,
+.AboutMe2 p,
+.AboutMe3 p {
+  color: black;
+  padding: 0px 0px 1rem 0px;
+  text-align: center;
+}
+
+.AboutMe1 {
+  grid-column: 2;
+  grid-row: 2 /5;
+  border-top-left-radius: 2rem;
+  border-top-style: solid;
+}
+.AboutMe2 {
+  grid-column: 3;
+  grid-row: 2 / 5;
+  border-top-style: solid;
+}
+.AboutMe3 {
+  grid-column: 4;
+  grid-row: 2 /5;
+  border-top-right-radius: 2rem;
+  border-top-style: solid;
+}
+
+.AboutMeIntro {
+  margin: 0;
+  padding: 1em;
+  grid-column: 1 /7;
+
+  font-family: "Roboto", sans-serif;
+  color: #6932ea;
+  display: block;
+  height: 150%;
+}
+
+.AboutMeIntro h1 {
+  padding: 0rem 25rem;
+  margin: 0;
+  text-align: center;
+}
+
+.AboutMeIntro p {
+  color: #1e133d;
+  padding: 0 25rem;
+  margin: 0.5rem;
+}
+
+.frontendicon,
+.designericon,
+.backendicon {
+  padding: 1rem;
+  height: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.AboutMeContainer h3 {
+  font-family: "Roboto", sans-serif;
+  color: #6932ea;
+  text-align: center;
+}
+
+.AboutMeContainer h2 {
+  font-family: "Roboto", sans-serif;
+  color: #1e133d;
+  text-align: center;
+}
+
+.AboutMeContainer li {
+  display: block;
+  list-style: none;
+  color: black;
+}
+
+.AboutMeContainer ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

@@ -1,0 +1,84 @@
+.NavBarContainer {
+  position: absolute;
+  top: 2%;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  z-index: 2;
+  grid-area: header;
+}
+.NavBarLinks {
+  margin: 0.5rem;
+  display: inline-block;
+}
+.NavBarLinks ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.NavBarLogo {
+  color: #00ff9f;
+  font-family: "Share Tech Mono", monospace;
+  position: relative;
+  display: block;
+  line-height: 100%;
+}
+
+.NavBarLogo p {
+  font-family: "Lato", sans-serif;
+  font-size: 100%;
+  line-height: 0%;
+}
+
+.NavBarLinks li {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding-left: 1rem;
+}
+
+.NavBarLinks li a {
+  display: block;
+  color: #fffcf0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.NavBarLinks li a:hover {
+  color: #00ff9f;
+  opacity: 0.8;
+  font-weight: 600;
+}
+
+#button2 {
+  top: 0.1rem;
+  position: relative;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 50px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #1e133d;
+  text-align: center;
+  transition: all 0.2s;
+  font-weight: 900;
+  background-color: #00ff9f;
+  text-transform: capitalize;
+}
+
+#button2:hover {
+  color: #000000;
+  background: #be6dff;
+}

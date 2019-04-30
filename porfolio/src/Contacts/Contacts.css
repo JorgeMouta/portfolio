@@ -1,0 +1,44 @@
+.ContactsContainer {
+  font-family: "Roboto", sans-serif;
+}
+
+.ContactsComponent {
+  text-align: center;
+  color: #1e133d;
+  margin: 6rem;
+}
+
+.ContactsComponent a {
+  font-size: 4.5em;
+  padding: 2rem;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fa-free-code-camp {
+  color: #006400;
+}
+
+.fa-github {
+  color: #24292e;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-github:hover,
+.fa-free-code-camp:hover,
+.fa-linkedin:hover {
+  color: #b5b5b5;
+}
+/* light purple #6932ea; 
+mustard yellow #cda20b */

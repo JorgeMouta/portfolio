@@ -1,0 +1,36 @@
+/* COLOR PALETTE
+
+#00ff9f another yellow
+#fffcf0 another #fffcf0
+#BE6DFF lightpink 
+#1E133D dark purple 
+#40267E background purple
+#fffcf0 moon grey
+#6932ea purple
+
+font-family: "Share Tech Mono", monospace;
+font-family: "Roboto", sans-serif;
+font-family: 'Lato', sans-serif; */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffcf0;
+}
+
+p,
+li {
+  font-family: "Lato", sans-serif;
+  font-size: 120%;
+  line-height: 2rem;
+  padding-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+/* APP */
+
+.App {
+  display: grid;
+  grid-template-areas: "header";
+}

@@ -1,0 +1,53 @@
+/* WELCOME PAGE */
+
+.WelcomeContainer {
+  position: relative;
+  top: 0px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-image: url("../Images/welcomebackground.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  grid-area: header;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+}
+
+.Welcome {
+  text-align: center;
+  top: 40%;
+  position: relative;
+  grid-column: 2;
+  grid-row: 1;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #fffcf0;
+  z-index: 1;
+}
+
+.Welcome h3 {
+  color: #00ff9f;
+}
+
+#button1 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Share Tech Mono", monospace;
+  color: #00ff9f;
+  text-align: center;
+  transition: all 0.2s;
+  font-weight: 900;
+  font-size: 200%;
+}
+
+#button1:hover {
+  color: #1e133d;
+  background-color: #00ff9f;
+}

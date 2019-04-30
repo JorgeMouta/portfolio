@@ -1,0 +1,79 @@
+.ProjectsContainer {
+  background-color: #fffcf0;
+  text-align: center;
+  padding: 5em 10rem;
+  position: relative;
+  height: auto;
+  margin: 4rem;
+}
+
+.Projects {
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  background-color: #6932ea;
+  margin: 0;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.ProjectsIntro {
+  text-align: center;
+  color: #6932ea;
+  font-family: "Roboto", sans-serif;
+}
+
+.ProjectsIntro p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 120%;
+  line-height: 2rem;
+  padding-bottom: 0.5rem;
+  opacity: 0.8;
+  color: #1e133d;
+}
+
+.Projects p {
+  padding: 2rem;
+}
+
+.Projects h1 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 150%;
+}
+
+.buttons i {
+  color: white;
+  font-size: 250%;
+}
+
+.visitButton {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+}
+.visitButton:hover {
+  color: #dddddd;
+  border-color: #dddddd;
+}
+.visitButton:active {
+  color: #bbbbbb;
+  border-color: #bbbbbb;
+}

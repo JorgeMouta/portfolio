@@ -1,0 +1,12 @@
+.FooterContainer {
+  text-align: center;
+  background-color: #6932ea;
+  color: #fffcf0;
+  font-family: "Lato", sans-serif;
+  height: auto;
+}
+
+.FooterContainer a {
+  text-decoration: none;
+  color: #00ff9f;
+}

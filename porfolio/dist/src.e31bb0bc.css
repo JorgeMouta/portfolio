@@ -1,0 +1,464 @@
+.NavBarContainer {
+  position: absolute;
+  top: 2%;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  z-index: 2;
+  grid-area: header;
+}
+.NavBarLinks {
+  margin: 0.5rem;
+  display: inline-block;
+}
+.NavBarLinks ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.NavBarLogo {
+  color: #00ff9f;
+  font-family: "Share Tech Mono", monospace;
+  position: relative;
+  display: block;
+  line-height: 100%;
+}
+
+.NavBarLogo p {
+  font-family: "Lato", sans-serif;
+  font-size: 100%;
+  line-height: 0%;
+}
+
+.NavBarLinks li {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding-left: 1rem;
+}
+
+.NavBarLinks li a {
+  display: block;
+  color: #fffcf0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.NavBarLinks li a:hover {
+  color: #00ff9f;
+  opacity: 0.8;
+  font-weight: 600;
+}
+
+#button2 {
+  top: 0.1rem;
+  position: relative;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 50px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #1e133d;
+  text-align: center;
+  transition: all 0.2s;
+  font-weight: 900;
+  background-color: #00ff9f;
+  text-transform: capitalize;
+}
+
+#button2:hover {
+  color: #000000;
+  background: #be6dff;
+}
+
+.AboutMeContainer {
+  padding: 2em;
+  margin: 3rem 0rem;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
+  overflow: hidden;
+  height: auto;
+}
+
+.AboutMe1,
+.AboutMe2,
+.AboutMe3 {
+  background-color: #fffcf0;
+  padding: 3rem;
+  height: auto;
+  color: #6932ea;
+
+  box-shadow: 0 1px 2px #c9c9c9;
+  -moz-box-shadow: 0 1px 2px #c9c9c9;
+  -webkit-box-shadow: 0 1px 2px #c9c9c9;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.AboutMe1 p,
+.AboutMe2 p,
+.AboutMe3 p {
+  color: black;
+  padding: 0px 0px 1rem 0px;
+  text-align: center;
+}
+
+.AboutMe1 {
+  grid-column: 2;
+  grid-row: 2 /5;
+  border-top-left-radius: 2rem;
+  border-top-style: solid;
+}
+.AboutMe2 {
+  grid-column: 3;
+  grid-row: 2 / 5;
+  border-top-style: solid;
+}
+.AboutMe3 {
+  grid-column: 4;
+  grid-row: 2 /5;
+  border-top-right-radius: 2rem;
+  border-top-style: solid;
+}
+
+.AboutMeIntro {
+  margin: 0;
+  padding: 1em;
+  grid-column: 1 /7;
+
+  font-family: "Roboto", sans-serif;
+  color: #6932ea;
+  display: block;
+  height: 150%;
+}
+
+.AboutMeIntro h1 {
+  padding: 0rem 25rem;
+  margin: 0;
+  text-align: center;
+}
+
+.AboutMeIntro p {
+  color: #1e133d;
+  padding: 0 25rem;
+  margin: 0.5rem;
+}
+
+.frontendicon,
+.designericon,
+.backendicon {
+  padding: 1rem;
+  height: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.AboutMeContainer h3 {
+  font-family: "Roboto", sans-serif;
+  color: #6932ea;
+  text-align: center;
+}
+
+.AboutMeContainer h2 {
+  font-family: "Roboto", sans-serif;
+  color: #1e133d;
+  text-align: center;
+}
+
+.AboutMeContainer li {
+  display: block;
+  list-style: none;
+  color: black;
+}
+
+.AboutMeContainer ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* WELCOME PAGE */
+
+.WelcomeContainer {
+  position: relative;
+  top: 0px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-image: url("/welcomebackground.57dc62c7.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  grid-area: header;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+}
+
+.Welcome {
+  text-align: center;
+  top: 40%;
+  position: relative;
+  grid-column: 2;
+  grid-row: 1;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #fffcf0;
+  z-index: 1;
+}
+
+.Welcome h3 {
+  color: #00ff9f;
+}
+
+#button1 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Share Tech Mono", monospace;
+  color: #00ff9f;
+  text-align: center;
+  transition: all 0.2s;
+  font-weight: 900;
+  font-size: 200%;
+}
+
+#button1:hover {
+  color: #1e133d;
+  background-color: #00ff9f;
+}
+
+.ContactsContainer {
+  font-family: "Roboto", sans-serif;
+}
+
+.ContactsComponent {
+  text-align: center;
+  color: #1e133d;
+  margin: 6rem;
+}
+
+.ContactsComponent a {
+  font-size: 4.5em;
+  padding: 2rem;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fa-free-code-camp {
+  color: #006400;
+}
+
+.fa-github {
+  color: #24292e;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-github:hover,
+.fa-free-code-camp:hover,
+.fa-linkedin:hover {
+  color: #b5b5b5;
+}
+/* light purple #6932ea; 
+mustard yellow #cda20b */
+
+.FooterContainer {
+  text-align: center;
+  background-color: #6932ea;
+  color: #fffcf0;
+  font-family: "Lato", sans-serif;
+  height: auto;
+}
+
+.FooterContainer a {
+  text-decoration: none;
+  color: #00ff9f;
+}
+
+.ProjectsContainer {
+  background-color: #fffcf0;
+  text-align: center;
+  padding: 5em 10rem;
+  position: relative;
+  height: auto;
+  margin: 4rem;
+}
+
+.Projects {
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  background-color: #6932ea;
+  margin: 0;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.ProjectsIntro {
+  text-align: center;
+  color: #6932ea;
+  font-family: "Roboto", sans-serif;
+}
+
+.ProjectsIntro p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 120%;
+  line-height: 2rem;
+  padding-bottom: 0.5rem;
+  opacity: 0.8;
+  color: #1e133d;
+}
+
+.Projects p {
+  padding: 2rem;
+}
+
+.Projects h1 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 150%;
+}
+
+.buttons i {
+  color: white;
+  font-size: 250%;
+}
+
+.visitButton {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+}
+.visitButton:hover {
+  color: #dddddd;
+  border-color: #dddddd;
+}
+.visitButton:active {
+  color: #bbbbbb;
+  border-color: #bbbbbb;
+}
+
+.FormContainer {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  width: 100%;
+  z-index: 11;
+  color: #fffcf0;
+
+  line-height: 1.6;
+  padding: 1em;
+}
+
+.container {
+  box-sizing: border-box;
+  display: block;
+  top: 10%;
+  position: relative;
+  width: 50%;
+  margin: auto;
+  padding: 3em;
+  border: 3px solid #00ff9f;
+  background-color: #6932ea;
+}
+
+.form-intro {
+  top: 0px;
+  position: relative;
+  display: block;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.FormContainer i {
+  color: #00ff9f;
+  font-size: 300%;
+  float: right;
+  cursor: pointer;
+  padding: 0 0.5em;
+  z-index: 0;
+}
+
+.FormContainer i:hover {
+  color: yellow;
+}
+
+.wrapper p {
+  line-height: 150%;
+}
+
+.wrapper label {
+  display: block;
+}
+
+.wrapper input,
+.wrapper textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 0.2em;
+  font-size: 120%;
+  background-color: #6932ea;
+  border-top: 0px;
+  border-left: 0px;
+  border-color: #00ff9f;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+#submit {
+  background-color: #00ff9f;
+  color: white;
+  height: 2em;
+  font-size: 150%;
+  cursor: pointer;
+}
+
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
